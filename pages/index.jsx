@@ -10,11 +10,11 @@ export default function HomePage() {
   );
 }
 
-function HomePageLayout({ header, chldren }) {
+function HomePageLayout({ header, children }) {
   return (
     <div className="bg-slate-50 min-h-screen">
       {header}
-      <main className="pt-6 mx-auto w-max">{chldren}</main>
+      <main className="pt-6 mx-auto w-max">{children}</main>
     </div>
   );
 }

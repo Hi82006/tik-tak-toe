@@ -65,6 +65,7 @@ function PlayerInfo({ playerInfo, isRight, isTimerRunning, onTimeOver }) {
 
   const minutesString = String(Math.floor(seconds / 60)).padStart(2, "0");
   const secondsString = String(seconds % 60).padStart(2, "0");
+  
   const isDanger = seconds < 10;
 
   useEffect(() => {

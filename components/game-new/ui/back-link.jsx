@@ -8,7 +8,7 @@ export function BackLink() {
         className="flex items-center gap-2 text-xs text-teal-600 leading-tight -mb-0.5"
       >
         <ArrowLeftIcon />
-        На главную
+        На головну
       </Link>
     )
 };

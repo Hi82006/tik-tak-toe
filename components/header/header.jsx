@@ -10,10 +10,10 @@ export function Header() {
       <Image src={logoSrc} alt="logo" />
       <div className="w-px h-8 bg-slate-200 mx-6" />
       <UiButton className="w-44" variant="primary" size="lg">
-        Играть
+        Грати
       </UiButton>
       <button className="ml-auto flex items-center gap-2 text-start text-teal-600 ">
-        <Profile name="Igrok" rating="1330" />
+        <Profile name="Ігрок" rating="1330" />
         <ArrowDownIcon />
       </button>
     </header>
