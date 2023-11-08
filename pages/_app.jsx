@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function App({ Component, pageProps }) {
   return (
-    <div className={clsx(inter.className, "text-slate-900")}>
+    <div className={clsx(inter.subsets, "text-slate-900")}>
       <Component {...pageProps} />
       <div id="modals"></div>
     </div>
