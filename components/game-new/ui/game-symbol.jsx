@@ -2,7 +2,7 @@ import { CrossIcon } from "./icons/cross-icon";
 import { TringleIcon } from "./icons/tringle-icon";
 import { ZeroIcon } from "./icons/zero-icon";
 import { SquareIcon } from "./icons/square-icon";
-import { GAME_SYMBOLS } from "../constans";
+import { GAME_SYMBOLS } from "../constants";
 
 
 

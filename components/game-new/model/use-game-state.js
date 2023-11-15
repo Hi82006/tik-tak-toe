@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { GAME_SYMBOLS } from "../constans";
+import { GAME_SYMBOLS } from "../constants";
 import { computedWinner } from "./computed-winner";
 import { getNextMove } from "./get-next-move";
 

@@ -2,7 +2,7 @@ import { GameTitle } from "./ui/game-title";
 import { GameInfo } from "./ui/game-info";
 import { GameLayout } from "./ui/game-layout";
 import { BackLink } from "./ui/back-link";
-import { PLAYERS } from "./constans";
+import { PLAYERS } from "./constants";
 import { PlayerInfo } from "./ui/player-info";
 import { GameMoveInfo } from "./ui/game-move-info";
 import { useGameState } from "./model/use-game-state";

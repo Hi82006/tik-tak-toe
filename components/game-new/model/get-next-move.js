@@ -1,4 +1,4 @@
-import { MOVE_ORDER } from "../constans";
+import { MOVE_ORDER } from "../constants";
 
 
 export function getNextMove(currentMove, playersCount, playersTimeOver) {
